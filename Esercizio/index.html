@@ -13,8 +13,8 @@
 
 <body>
 
-    <header class="bg-primary px-5">
-        <nav class="navbar navbar-dark navbar-expand-lg bg-primary fixed-top d-flex justify-content-between">
+    <header class="bg-primary px-3">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-primary fixed-top d-flex justify-content-between px-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="assets/netflix_logo.png" alt="Netflix" height="50px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -44,15 +44,16 @@
                     </ul>
 
                     <div class="d-flex align-items-center justify-content-end">
-                        <div class="btn-group dropstart">
-                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class="bi bi-search"></i>
+                        <div class="btn-group">
+                            <input type="text" placeholder="Search"
+                                class="bg-primary text-info border border-1 rounded collapse collapse-horizontal px-3 mx-1"
+                                id="collapseWidthExample">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseWidthExample" aria-expanded="false"
+                                aria-controls="collapseWidthExample">
+                                <i class="bi bi-search fs-4"></i>
                             </button>
-                            <ul class="dropdown-menu bg-primary">
-                                <input type="text" placeholder="Search"
-                                    class="bg-primary text-info border border-1 rounded">
-                            </ul>
+
                         </div>
                         <span class="navbar-text text-info d-none d-lg-block">
                             Bambini
@@ -111,7 +112,7 @@
             </div>
         </nav>
 
-        <div class="secondary-navbar d-flex align-items-center justify-content-between pt-lg-6 pt-sm-8 pt-7">
+        <div class="secondary-navbar d-flex align-items-center justify-content-between pt-lg-6 pt-sm-8 pt-7 px-4">
             <div class="d-flex align-items-center">
                 <h1 class="fs-1 fw-bold text-info">Serie TV</h1>
                 <div class="dropdown mx-6">
@@ -139,7 +140,7 @@
 
     </header>
 
-    <main class="container-fluid bg-primary">
+    <main class="container-fluid bg-primary px-4">
         <div class="container-fluid py-4">
             <h3 class="fs-2 text-info pb-3">Trending Now</h3>
             <div id="carouselExampleSlidesOnly" class="carousel slide pb-6" data-bs-ride="carousel">
@@ -156,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active" data-bs-interval="4000">
+                    <div class="carousel-item" data-bs-interval="4000">
                         <div class="row">
                             <div class="col d-flex">
                                 <img src="assets/media/media6.jpg" class="mx-1 d-block" alt="poster">
@@ -168,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active" data-bs-interval="2500">
+                    <div class="carousel-item" data-bs-interval="2500">
                         <div class="row">
                             <div class="col d-flex">
                                 <img src="assets/media/media12.jpg" class="mx-1 d-block" alt="poster">
@@ -188,7 +189,7 @@
             <h3 class="fs-2 text-info pb-3">Watch It Again</h3>
             <div id="carouselExampleSlidesOnly" class="carousel slide pb-6" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="carousel-item active" data-bs-interval="2000">
                         <div class="row">
                             <div class="col d-flex">
                                 <img src="assets/media/media18.jpg" class="mx-1 d-block" alt="poster">
@@ -200,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active" data-bs-interval="4000">
+                    <div class="carousel-item" data-bs-interval="1500">
                         <div class="row">
                             <div class="col d-flex">
                                 <img src="assets/media/media24.jpg" class="mx-1 d-block" alt="poster">
@@ -212,7 +213,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active" data-bs-interval="2500">
+                    <div class="carousel-item" data-bs-interval="3000">
                         <div class="row">
                             <div class="col d-flex">
                                 <img src="assets/media/media30.jpg" class="mx-1 d-block" alt="poster">
@@ -232,7 +233,7 @@
             <h3 class="fs-2 text-info pb-3">New Releases</h3>
             <div id="carouselExampleSlidesOnly" class="carousel slide pb-6" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="carousel-item active" data-bs-interval="3500">
                         <div class="row">
                             <div class="col d-flex">
                                 <img src="assets/media/media3.webp" class="mx-1 d-block" alt="poster">
@@ -244,7 +245,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active" data-bs-interval="4000">
+                    <div class="carousel-item" data-bs-interval="2500">
                         <div class="row">
                             <div class="col d-flex">
                                 <img src="assets/media/media9.jpg" class="mx-1 d-block" alt="poster">
@@ -256,7 +257,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active" data-bs-interval="2500">
+                    <div class="carousel-item" data-bs-interval="1000">
                         <div class="row">
                             <div class="col d-flex">
                                 <img src="assets/media/media15.jpg" class="mx-1 d-block" alt="poster">
